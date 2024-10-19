@@ -1,0 +1,672 @@
+
+body{
+    margin: 0px;
+    max-width: 95%;
+    margin: 0px auto;
+    
+    
+}
+
+header{
+    font-size: 18px;
+
+}
+header nav{
+display: flex;
+justify-content: space-between;
+}
+
+
+
+nav .right{
+    margin-top: 10px;
+}
+nav .right span{
+border: #444 solid 1px;
+border-radius: 5px;
+margin: 0px 5px;
+padding: 5px;
+cursor: pointer;
+
+}
+nav .right span:hover{
+    border: blueviolet 2px solid;
+}
+
+nav .left{
+margin-top: 10px;
+
+}
+.owle{
+    display: grid;
+    direction: rtl;
+    grid-template-columns: 4fr 8fr;
+    
+   
+}
+.she{
+    border: 1px solid red;
+    width: 13em;
+    border-radius: 12px;
+    background-color: rgb(224, 77, 77);
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 15px;
+    
+}
+.titler{
+    font-size: 30px;
+}
+.darsad{
+    font-size: 51px;
+    margin-top: 28px;
+}
+.login{
+border: 1px solid #444;
+border-radius: 5px;
+padding: 5px 10px;
+cursor: pointer;
+margin-left: 110px;
+transition-duration: 0.3s;
+}
+.login:hover{
+    border: red 1px solid;
+    background-color: red;
+    color: white;
+}
+header section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 6px;
+    position: relative;
+    
+}
+header section .text{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    left: 90px;
+    bottom: 385px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    
+  
+    margin-top: 80px;
+  
+    
+    
+}
+.cards div{
+    margin: 0px 10px;
+    
+    
+}
+.card1{
+border: whitesmoke solid 0.5px;
+padding: 10px;
+
+box-shadow: 0px 4px 0px 4px rgb(230, 230, 230);
+border-radius: 15px;
+
+}
+
+.card1 .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card1 .bottem{
+    display: flex;
+   flex-direction: column;
+
+    font-size: 19px;
+}
+.card1 .bottem .logo{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.bottem .price{
+    margin-top: 10px;
+}
+.card1:hover{
+    border: rgb(212, 203, 203) solid 3px;
+    background-color: rgb(255, 239, 220);
+}
+.top .tex{
+    font-size: 21px;
+}
+
+.box{
+display: grid;
+grid-template-columns: 2fr 4fr;
+margin-top: 50px;
+padding: 20px 30px;
+
+
+}
+.box .pic img{
+width: 50%;
+border-radius: 15px;
+box-shadow: 0px 8px 0px 8px rgb(230, 230, 230);
+
+}
+.box .hot{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 8px 0px 8px rgb(230, 230, 230);
+    border-radius: 15px;
+    padding: 5px 10px;
+    position: relative;
+
+}
+.box .hot:hover{
+    bor0der: rgb(206, 206, 206) solid 3px;
+    background-color: rgb(255, 239, 220);
+}
+.box .hot .text{
+    font-size: 20px;
+    
+
+}
+
+.box .hot .clen{
+
+}
+.r2{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 45px;
+    padding: 10px;
+    border-bottom: #444 solid 1px;
+    
+}
+.r2 div{
+    margin: 0px 18px;
+}
+.text .ofer{
+   position: absolute;
+   left: 300px;
+   background-color: orangered;
+   border-radius: 10px;
+   color: white;
+   padding: 4px;
+}
+.off{
+    background-color: orangered;
+    border-radius: 10px;
+    color: white;
+    padding: 4px;
+}
+.pcname{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 19px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo .love{
+    background-color: rgba(243, 54, 79, 0.938);
+    border-radius: 6px;
+    color: white;
+    padding: 0px 2px;
+    font-size: 17px;
+    cursor: pointer;
+    
+    width: 70px;
+    overflow: hidden;
+    
+    
+}
+.price{
+    font-size: small;
+    color: #444;
+}
+.logo .buy{
+    background-color: rgba(243, 54, 79, 0.938);
+    border-radius: 6px;
+    color: white;
+    padding: 0px 2px;
+    font-size: 17px;
+    cursor: pointer;
+    
+    width: 70px;
+    overflow: hidden;
+    
+    
+    
+}
+
+.logo .love{
+    margin-top: 2px;
+    
+    
+}
+.logo .love:hover{
+  
+    
+    
+    
+}
+.logo .buy:hover{
+   
+   
+   
+  
+    
+    
+}
+.logo{
+    margin-top: 26px;
+    padding: 8px;
+}
+ .contain{
+    display: flex;
+    flex-direction: column;
+ }
+ .upper{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    background-color: rgb(77, 126, 128);
+    color: white;
+    padding: 15px;
+    
+
+
+ }
+ .lower{
+    text-align: center;
+    background-color: rgb(14, 14, 43);
+    color: white;
+    padding: 5px;
+ }
+ .falow{
+    direction: rtl;
+    font-size: 17px;
+    line-height: 25px;
+ }
+ .explain{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    flex-direction: column;
+ }
+ .squar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 45px;
+    margin-top: 3em;
+    
+    
+    
+    
+ }
+ .bigi img{
+    border-radius: 17px;
+    transition:  1s;
+    cursor: pointer;
+    
+ }
+ .bigi img:hover{
+    transform: scale(1.3);
+    border-radius: 0px;
+ }
+ .sir img:hover{
+    
+    z-index: 10;
+ }
+ .card1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ }
+ .darsad:hover{
+
+ }
+ .darsad{
+    animation: anim 2s linear infinite;
+ }
+ @keyframes anim {
+    to{transform: scale(1.6);}
+    
+ }
+ .box{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 7.5fr;
+    direction: rtl;
+    position: relative;
+ }
+ .box img{
+    width: 100%;
+ }
+ .main-col{
+    display: flex;
+    flex-direction: column;
+ }
+ .down-dec{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    margin-top: 40px;
+ }
+ .left-sot div{
+    margin-top: 12px;
+ }
+ .cart{
+    border: 1px solid rgb(224, 220, 220);
+    padding: 10px 20px;
+    
+ }
+ .right-sot p{
+    color: gray;
+ }
+ .right-clo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+ }
+ .right-clo i{
+    margin-top: 20px;
+    font-size: large;
+    color: #444;
+}
+footer{
+    margin-top: 25px;
+}
+.serch input{
+    border-radius: 18px;
+    width: 24em;
+    direction: rtl;
+    margin-top: 12px;
+    font-size: 13px;
+}
+.options{
+    display: flex;
+    color: gray;
+    justify-content: flex-end;
+    margin-top: 18px;
+}
+.options span{
+    margin-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+  
+}
+.options span:hover{
+    border-bottom: 2px solid red;
+}
+.navi{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    background-color: aliceblue;
+    padding-bottom: 10px;
+}
+.serch{
+    margin-left: 320px
+}
+.cart-btn{
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 8px;
+    width: fit-content;
+    font-size: 20px;
+    margin-left: 6px;
+    margin-top: -35px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+
+}
+.cart-btn:hover{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+.badgeq{
+    position: absolute;
+    z-index: 50;
+    font-size: larger;
+    background-color: rgb(255, 59, 59);
+    padding: 5px 12px;
+    top: 0;
+    right: 9em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    animation: chg linear infinite 1s;
+}
+@keyframes chg {
+    0%{color: black;}
+    50%{color: white;}
+    100%{color: black;}
+    
+}
+.badge{
+    position: absolute;
+    background-color: rgb(245, 31, 31);
+    right: 0;
+}
+.right img{
+    width: 80%;
+    margin-left: 59px;
+}
+.left .login{
+    font-size: 13px;
+
+}
+
+.origi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+.orgnize{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    position: relative;
+    grid-gap: 2px;
+
+    
+}
+.corner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    transition-duration: 0.5s;
+    
+    
+
+    
+}
+.corner img{
+    width: 30%;
+}
+.covere{
+    position: absolute;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+   opacity: 0;
+    
+    
+}
+.covere ul{
+    direction: rtl;
+}
+.corner:hover{
+    transform: scale(1.3);
+}
+.covere ul li:hover{
+    color: rgb(248, 41, 41);
+    cursor: pointer;
+}
+.btnn{
+    position: absolute;
+    right: 5px;
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+    background-color: transparent;
+    border: none;
+
+}
+.respo-pic{
+    display: none;
+}
+.drag{
+    display: none;
+}
+.right-clo i:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:600px) {
+    .login{
+        font-size: small;
+        width: 110px;
+        text-align: center;
+        margin-left: 65px;
+    }
+    .options{
+        display: none;
+    }
+    .optionss{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .optionss span{
+        margin-top: 10px;
+        border-bottom: 1px solid gray;
+        cursor: pointer;
+    }
+    .optionss span:hover{
+        color: red;
+    }
+    .btnn{
+        display: block;
+    }
+    .slide{
+        
+        width: 100%;
+        height: auto;
+        position: absolute;
+        right: 70px;
+    }
+    .she{
+        display: flex;
+        justify-content: space-around;
+        height: 19%;
+        position: absolute;
+        width: 100%;
+        margin-top: -37px;
+        right: 0;
+
+
+    }
+    .owle{
+        margin-top: 8em;
+        position: relative;
+    }
+    .darsad{
+        margin-top: -9px;
+    }
+    .origi h3{
+        font-size: 30px;
+    }
+    .corner{
+        wicdth: 80%;
+
+    }
+    .orgnize{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .covere{
+        font-size: 12px;
+        
+    }
+    .text-center{
+        display: none;
+        flex-direction: column;
+    }
+    .respo-pic{
+        display: block;
+        padding-top: 25px;
+        margin-left: 15px;
+        
+    }
+    .respo-pic div img{
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-clo{
+        position: absolute;
+        right: 0;
+    }
+    .right-clo img{
+        width: 80%;
+    }
+    .badgeq{
+        right: 0;
+    }
+    .top-dec{
+        margin-top: 15px;
+    }
+    .down-dec{
+        display: flex;
+        flex-direction: column;
+    }
+    .saler{
+        text-align: right;
+        direction: rtl;
+        display: block;
+    }
+    .drag{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        color: rgb(126, 125, 125);
+        font-size: larger;
+        margin-top: -65px;
+
+    }
+
+ 
+    
+}
+
+
